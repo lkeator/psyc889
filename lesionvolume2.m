@@ -1,5 +1,5 @@
 function lesionvolume
-    
+% report lesion volume    
  if ~exist('fnms', 'var')
         fnms = spm_select(inf, '.mat', 'Select image[s] for NaN removal');
  end
